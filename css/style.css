@@ -1,0 +1,1799 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #090a1a;
+  font-family: "Russo One", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body p {
+  color: white;
+}
+
+body .nav {
+  background-image: url(../img/bannerbg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body .nav .container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .nav .container .logo {
+  margin-top: 20px;
+}
+
+body .nav .container .logo img {
+  width: 150px;
+}
+
+body .nav .container .topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+}
+
+body .nav .container .topnav a {
+  margin: 5px 15px;
+}
+
+body .nav .container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+}
+
+body .nav .container .buttons .first a img {
+  width: 120px;
+  margin: 0px 20px;
+}
+
+body .nav .container .buttons .second a img {
+  width: 120px;
+  margin: 0px 20px;
+}
+
+body .nav .container2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-bottom: 66px;
+}
+
+body .nav .container2 img {
+  width: 100px;
+  margin-top: 90px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+@-webkit-keyframes typed {
+  /* string 1, char 1 */
+  0%,
+  0.5838% {
+    content: "T";
+  }
+  /* string 1, char 2 */
+  0.5848%,
+  1.16859% {
+    content: "Th";
+  }
+  /* string 1, char 3 */
+  1.16959%,
+  1.75339% {
+    content: "The";
+  }
+  /* string 1, char 4 */
+  1.75439%,
+  2.33818% {
+    content: "The ";
+  }
+  /* string 1, char 5 */
+  2.33918%,
+  2.92298% {
+    content: "The d";
+  }
+  /* string 1, char 6 */
+  2.92398%,
+  3.50777% {
+    content: "The dr";
+  }
+  /* string 1, char 7 */
+  3.50877%,
+  4.09257% {
+    content: "The dre";
+  }
+  /* string 1, char 8 */
+  4.09357%,
+  4.67736% {
+    content: "The drea";
+  }
+  /* string 1, char 9 */
+  4.67836%,
+  5.26216% {
+    content: "The dream";
+  }
+  /* string 1, char 10 */
+  5.26316%,
+  5.84695% {
+    content: "The dream ";
+  }
+  /* string 1, char 11 */
+  5.84795%,
+  6.43175% {
+    content: "The dream o";
+  }
+  /* string 1, char 12 */
+  6.43275%,
+  7.01654% {
+    content: "The dream of";
+  }
+  /* string 1, char 13 */
+  7.01754%,
+  7.60134% {
+    content: "The dream of ";
+  }
+  /* string 1, char 14 */
+  7.60234%,
+  8.18613% {
+    content: "The dream of e";
+  }
+  /* string 1, char 15 */
+  8.18713%,
+  8.77093% {
+    content: "The dream of ev";
+  }
+  /* string 1, char 16 */
+  8.77193%,
+  9.35573% {
+    content: "The dream of eve";
+  }
+  /* string 1, char 17 */
+  9.35673%,
+  9.94052% {
+    content: "The dream of ever";
+  }
+  /* string 1, char 18 */
+  9.94152%,
+  10.52532% {
+    content: "The dream of every";
+  }
+  /* string 1, char 19 */
+  10.52632%,
+  11.11011% {
+    content: "The dream of every ";
+  }
+  /* string 1, char 20 */
+  11.11111%,
+  11.69491% {
+    content: "The dream of every G";
+  }
+  /* string 1, char 21 */
+  11.69591%,
+  12.2797% {
+    content: "The dream of every Ga";
+  }
+  /* string 1, char 22 */
+  12.2807%,
+  12.8645% {
+    content: "The dream of every Gam";
+  }
+  /* string 1, char 23 */
+  12.8655%,
+  13.44929% {
+    content: "The dream of every Game";
+  }
+  /* string 1, char 24 */
+  13.45029%,
+  14.03409% {
+    content: "The dream of every Gamer";
+  }
+  /* string 1, char 25 */
+  14.03509%,
+  26.78263% {
+    content: "The dream of every Gamer!";
+  }
+  /* string 1, char 26 */
+  26.78363%,
+  27.25046% {
+    content: "The dream of every Gamer";
+  }
+  /* string 1, char 27 */
+  27.25146%,
+  27.7183% {
+    content: "The dream of every Game";
+  }
+  /* string 1, char 28 */
+  27.7193%,
+  28.18613% {
+    content: "The dream of every Gam";
+  }
+  /* string 1, char 29 */
+  28.18713%,
+  28.65397% {
+    content: "The dream of every Ga";
+  }
+  /* string 1, char 30 */
+  28.65497%,
+  29.12181% {
+    content: "The dream of every G";
+  }
+  /* string 1, char 31 */
+  29.12281%,
+  29.58964% {
+    content: "The dream of every ";
+  }
+  /* string 1, char 32 */
+  29.59064%,
+  30.05748% {
+    content: "The dream of every";
+  }
+  /* string 1, char 33 */
+  30.05848%,
+  30.52532% {
+    content: "The dream of ever";
+  }
+  /* string 1, char 34 */
+  30.52632%,
+  30.99315% {
+    content: "The dream of eve";
+  }
+  /* string 1, char 35 */
+  30.99415%,
+  31.46099% {
+    content: "The dream of ev";
+  }
+  /* string 1, char 36 */
+  31.46199%,
+  31.92882% {
+    content: "The dream of e";
+  }
+  /* string 1, char 37 */
+  31.92982%,
+  32.39666% {
+    content: "The dream of ";
+  }
+  /* string 1, char 38 */
+  32.39766%,
+  32.8645% {
+    content: "The dream of";
+  }
+  /* string 1, char 39 */
+  32.8655%,
+  33.33233% {
+    content: "The dream o";
+  }
+  /* string 1, char 40 */
+  33.33333%,
+  33.80017% {
+    content: "The dream ";
+  }
+  /* string 1, char 41 */
+  33.80117%,
+  34.26801% {
+    content: "The dream";
+  }
+  /* string 1, char 42 */
+  34.26901%,
+  34.73584% {
+    content: "The drea";
+  }
+  /* string 1, char 43 */
+  34.73684%,
+  35.20368% {
+    content: "The dre";
+  }
+  /* string 1, char 44 */
+  35.20468%,
+  35.67151% {
+    content: "The dr";
+  }
+  /* string 1, char 45 */
+  35.67251%,
+  36.13935% {
+    content: "The d";
+  }
+  /* string 1, char 46 */
+  36.14035%,
+  36.60719% {
+    content: "The ";
+  }
+  /* string 1, char 47 */
+  36.60819%,
+  37.07502% {
+    content: "The";
+  }
+  /* string 1, char 48 */
+  37.07602%,
+  37.54286% {
+    content: "Th";
+  }
+  /* string 1, char 49 */
+  37.54386%,
+  38.0107% {
+    content: "T";
+  }
+  /* string 1, char 50 */
+  38.0117%,
+  43.85865% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  43.85965%,
+  44.44344% {
+    content: "P";
+  }
+  /* string 2, char 2 */
+  44.44444%,
+  45.02824% {
+    content: "Pl";
+  }
+  /* string 2, char 3 */
+  45.02924%,
+  45.61304% {
+    content: "Pla";
+  }
+  /* string 2, char 4 */
+  45.61404%,
+  46.19783% {
+    content: "Play";
+  }
+  /* string 2, char 5 */
+  46.19883%,
+  46.78263% {
+    content: "Play ";
+  }
+  /* string 2, char 6 */
+  46.78363%,
+  47.36742% {
+    content: "Play f";
+  }
+  /* string 2, char 7 */
+  47.36842%,
+  47.95222% {
+    content: "Play fo";
+  }
+  /* string 2, char 8 */
+  47.95322%,
+  48.53701% {
+    content: "Play for";
+  }
+  /* string 2, char 9 */
+  48.53801%,
+  49.12181% {
+    content: "Play for ";
+  }
+  /* string 2, char 10 */
+  49.12281%,
+  49.7066% {
+    content: "Play for $";
+  }
+  /* string 2, char 11 */
+  49.7076%,
+  50.2914% {
+    content: "Play for $G";
+  }
+  /* string 2, char 12 */
+  50.2924%,
+  50.87619% {
+    content: "Play for $GP";
+  }
+  /* string 2, char 13 */
+  50.87719%,
+  51.46099% {
+    content: "Play for $GPT";
+  }
+  /* string 2, char 14 */
+  51.46199%,
+  64.20953% {
+    content: "Play for $GPT!";
+  }
+  /* string 2, char 15 */
+  64.21053%,
+  64.67736% {
+    content: "Play for $GPT";
+  }
+  /* string 2, char 16 */
+  64.67836%,
+  65.1452% {
+    content: "Play for $GP";
+  }
+  /* string 2, char 17 */
+  65.1462%,
+  65.61304% {
+    content: "Play for $G";
+  }
+  /* string 2, char 18 */
+  65.61404%,
+  66.08087% {
+    content: "Play for $";
+  }
+  /* string 2, char 19 */
+  66.08187%,
+  66.54871% {
+    content: "Play for ";
+  }
+  /* string 2, char 20 */
+  66.54971%,
+  67.01654% {
+    content: "Play for";
+  }
+  /* string 2, char 21 */
+  67.01754%,
+  67.48438% {
+    content: "Play fo";
+  }
+  /* string 2, char 22 */
+  67.48538%,
+  67.95222% {
+    content: "Play f";
+  }
+  /* string 2, char 23 */
+  67.95322%,
+  68.42005% {
+    content: "Play ";
+  }
+  /* string 2, char 24 */
+  68.42105%,
+  68.88789% {
+    content: "Play";
+  }
+  /* string 2, char 25 */
+  68.88889%,
+  69.35573% {
+    content: "Pla";
+  }
+  /* string 2, char 26 */
+  69.35673%,
+  69.82356% {
+    content: "Pl";
+  }
+  /* string 2, char 27 */
+  69.82456%,
+  70.2914% {
+    content: "P";
+  }
+  /* string 2, char 28 */
+  70.2924%,
+  76.13935% {
+    content: "​";
+  }
+  /* string 3, char 1 */
+  76.14035%,
+  76.72415% {
+    content: "E";
+  }
+  /* string 3, char 2 */
+  76.72515%,
+  77.30894% {
+    content: "En";
+  }
+  /* string 3, char 3 */
+  77.30994%,
+  77.89374% {
+    content: "Enj";
+  }
+  /* string 3, char 4 */
+  77.89474%,
+  78.47853% {
+    content: "Enjo";
+  }
+  /* string 3, char 5 */
+  78.47953%,
+  79.06333% {
+    content: "Enjoy";
+  }
+  /* string 3, char 6 */
+  79.06433%,
+  91.81187% {
+    content: "Enjoy!";
+  }
+  /* string 3, char 7 */
+  91.81287%,
+  92.2797% {
+    content: "Enjoy";
+  }
+  /* string 3, char 8 */
+  92.2807%,
+  92.74754% {
+    content: "Enjo";
+  }
+  /* string 3, char 9 */
+  92.74854%,
+  93.21537% {
+    content: "Enj";
+  }
+  /* string 3, char 10 */
+  93.21637%,
+  93.68321% {
+    content: "En";
+  }
+  /* string 3, char 11 */
+  93.68421%,
+  94.15105% {
+    content: "E";
+  }
+  /* string 3, char 12 */
+  94.15205%,
+  100% {
+    content: "​";
+  }
+}
+
+@keyframes typed {
+  /* string 1, char 1 */
+  0%,
+  0.5838% {
+    content: "T";
+  }
+  /* string 1, char 2 */
+  0.5848%,
+  1.16859% {
+    content: "Th";
+  }
+  /* string 1, char 3 */
+  1.16959%,
+  1.75339% {
+    content: "The";
+  }
+  /* string 1, char 4 */
+  1.75439%,
+  2.33818% {
+    content: "The ";
+  }
+  /* string 1, char 5 */
+  2.33918%,
+  2.92298% {
+    content: "The d";
+  }
+  /* string 1, char 6 */
+  2.92398%,
+  3.50777% {
+    content: "The dr";
+  }
+  /* string 1, char 7 */
+  3.50877%,
+  4.09257% {
+    content: "The dre";
+  }
+  /* string 1, char 8 */
+  4.09357%,
+  4.67736% {
+    content: "The drea";
+  }
+  /* string 1, char 9 */
+  4.67836%,
+  5.26216% {
+    content: "The dream";
+  }
+  /* string 1, char 10 */
+  5.26316%,
+  5.84695% {
+    content: "The dream ";
+  }
+  /* string 1, char 11 */
+  5.84795%,
+  6.43175% {
+    content: "The dream o";
+  }
+  /* string 1, char 12 */
+  6.43275%,
+  7.01654% {
+    content: "The dream of";
+  }
+  /* string 1, char 13 */
+  7.01754%,
+  7.60134% {
+    content: "The dream of ";
+  }
+  /* string 1, char 14 */
+  7.60234%,
+  8.18613% {
+    content: "The dream of e";
+  }
+  /* string 1, char 15 */
+  8.18713%,
+  8.77093% {
+    content: "The dream of ev";
+  }
+  /* string 1, char 16 */
+  8.77193%,
+  9.35573% {
+    content: "The dream of eve";
+  }
+  /* string 1, char 17 */
+  9.35673%,
+  9.94052% {
+    content: "The dream of ever";
+  }
+  /* string 1, char 18 */
+  9.94152%,
+  10.52532% {
+    content: "The dream of every";
+  }
+  /* string 1, char 19 */
+  10.52632%,
+  11.11011% {
+    content: "The dream of every ";
+  }
+  /* string 1, char 20 */
+  11.11111%,
+  11.69491% {
+    content: "The dream of every G";
+  }
+  /* string 1, char 21 */
+  11.69591%,
+  12.2797% {
+    content: "The dream of every Ga";
+  }
+  /* string 1, char 22 */
+  12.2807%,
+  12.8645% {
+    content: "The dream of every Gam";
+  }
+  /* string 1, char 23 */
+  12.8655%,
+  13.44929% {
+    content: "The dream of every Game";
+  }
+  /* string 1, char 24 */
+  13.45029%,
+  14.03409% {
+    content: "The dream of every Gamer";
+  }
+  /* string 1, char 25 */
+  14.03509%,
+  26.78263% {
+    content: "The dream of every Gamer!";
+  }
+  /* string 1, char 26 */
+  26.78363%,
+  27.25046% {
+    content: "The dream of every Gamer";
+  }
+  /* string 1, char 27 */
+  27.25146%,
+  27.7183% {
+    content: "The dream of every Game";
+  }
+  /* string 1, char 28 */
+  27.7193%,
+  28.18613% {
+    content: "The dream of every Gam";
+  }
+  /* string 1, char 29 */
+  28.18713%,
+  28.65397% {
+    content: "The dream of every Ga";
+  }
+  /* string 1, char 30 */
+  28.65497%,
+  29.12181% {
+    content: "The dream of every G";
+  }
+  /* string 1, char 31 */
+  29.12281%,
+  29.58964% {
+    content: "The dream of every ";
+  }
+  /* string 1, char 32 */
+  29.59064%,
+  30.05748% {
+    content: "The dream of every";
+  }
+  /* string 1, char 33 */
+  30.05848%,
+  30.52532% {
+    content: "The dream of ever";
+  }
+  /* string 1, char 34 */
+  30.52632%,
+  30.99315% {
+    content: "The dream of eve";
+  }
+  /* string 1, char 35 */
+  30.99415%,
+  31.46099% {
+    content: "The dream of ev";
+  }
+  /* string 1, char 36 */
+  31.46199%,
+  31.92882% {
+    content: "The dream of e";
+  }
+  /* string 1, char 37 */
+  31.92982%,
+  32.39666% {
+    content: "The dream of ";
+  }
+  /* string 1, char 38 */
+  32.39766%,
+  32.8645% {
+    content: "The dream of";
+  }
+  /* string 1, char 39 */
+  32.8655%,
+  33.33233% {
+    content: "The dream o";
+  }
+  /* string 1, char 40 */
+  33.33333%,
+  33.80017% {
+    content: "The dream ";
+  }
+  /* string 1, char 41 */
+  33.80117%,
+  34.26801% {
+    content: "The dream";
+  }
+  /* string 1, char 42 */
+  34.26901%,
+  34.73584% {
+    content: "The drea";
+  }
+  /* string 1, char 43 */
+  34.73684%,
+  35.20368% {
+    content: "The dre";
+  }
+  /* string 1, char 44 */
+  35.20468%,
+  35.67151% {
+    content: "The dr";
+  }
+  /* string 1, char 45 */
+  35.67251%,
+  36.13935% {
+    content: "The d";
+  }
+  /* string 1, char 46 */
+  36.14035%,
+  36.60719% {
+    content: "The ";
+  }
+  /* string 1, char 47 */
+  36.60819%,
+  37.07502% {
+    content: "The";
+  }
+  /* string 1, char 48 */
+  37.07602%,
+  37.54286% {
+    content: "Th";
+  }
+  /* string 1, char 49 */
+  37.54386%,
+  38.0107% {
+    content: "T";
+  }
+  /* string 1, char 50 */
+  38.0117%,
+  43.85865% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  43.85965%,
+  44.44344% {
+    content: "P";
+  }
+  /* string 2, char 2 */
+  44.44444%,
+  45.02824% {
+    content: "Pl";
+  }
+  /* string 2, char 3 */
+  45.02924%,
+  45.61304% {
+    content: "Pla";
+  }
+  /* string 2, char 4 */
+  45.61404%,
+  46.19783% {
+    content: "Play";
+  }
+  /* string 2, char 5 */
+  46.19883%,
+  46.78263% {
+    content: "Play ";
+  }
+  /* string 2, char 6 */
+  46.78363%,
+  47.36742% {
+    content: "Play f";
+  }
+  /* string 2, char 7 */
+  47.36842%,
+  47.95222% {
+    content: "Play fo";
+  }
+  /* string 2, char 8 */
+  47.95322%,
+  48.53701% {
+    content: "Play for";
+  }
+  /* string 2, char 9 */
+  48.53801%,
+  49.12181% {
+    content: "Play for ";
+  }
+  /* string 2, char 10 */
+  49.12281%,
+  49.7066% {
+    content: "Play for $";
+  }
+  /* string 2, char 11 */
+  49.7076%,
+  50.2914% {
+    content: "Play for $G";
+  }
+  /* string 2, char 12 */
+  50.2924%,
+  50.87619% {
+    content: "Play for $GP";
+  }
+  /* string 2, char 13 */
+  50.87719%,
+  51.46099% {
+    content: "Play for $GPT";
+  }
+  /* string 2, char 14 */
+  51.46199%,
+  64.20953% {
+    content: "Play for $GPT!";
+  }
+  /* string 2, char 15 */
+  64.21053%,
+  64.67736% {
+    content: "Play for $GPT";
+  }
+  /* string 2, char 16 */
+  64.67836%,
+  65.1452% {
+    content: "Play for $GP";
+  }
+  /* string 2, char 17 */
+  65.1462%,
+  65.61304% {
+    content: "Play for $G";
+  }
+  /* string 2, char 18 */
+  65.61404%,
+  66.08087% {
+    content: "Play for $";
+  }
+  /* string 2, char 19 */
+  66.08187%,
+  66.54871% {
+    content: "Play for ";
+  }
+  /* string 2, char 20 */
+  66.54971%,
+  67.01654% {
+    content: "Play for";
+  }
+  /* string 2, char 21 */
+  67.01754%,
+  67.48438% {
+    content: "Play fo";
+  }
+  /* string 2, char 22 */
+  67.48538%,
+  67.95222% {
+    content: "Play f";
+  }
+  /* string 2, char 23 */
+  67.95322%,
+  68.42005% {
+    content: "Play ";
+  }
+  /* string 2, char 24 */
+  68.42105%,
+  68.88789% {
+    content: "Play";
+  }
+  /* string 2, char 25 */
+  68.88889%,
+  69.35573% {
+    content: "Pla";
+  }
+  /* string 2, char 26 */
+  69.35673%,
+  69.82356% {
+    content: "Pl";
+  }
+  /* string 2, char 27 */
+  69.82456%,
+  70.2914% {
+    content: "P";
+  }
+  /* string 2, char 28 */
+  70.2924%,
+  76.13935% {
+    content: "​";
+  }
+  /* string 3, char 1 */
+  76.14035%,
+  76.72415% {
+    content: "E";
+  }
+  /* string 3, char 2 */
+  76.72515%,
+  77.30894% {
+    content: "En";
+  }
+  /* string 3, char 3 */
+  77.30994%,
+  77.89374% {
+    content: "Enj";
+  }
+  /* string 3, char 4 */
+  77.89474%,
+  78.47853% {
+    content: "Enjo";
+  }
+  /* string 3, char 5 */
+  78.47953%,
+  79.06333% {
+    content: "Enjoy";
+  }
+  /* string 3, char 6 */
+  79.06433%,
+  91.81187% {
+    content: "Enjoy!";
+  }
+  /* string 3, char 7 */
+  91.81287%,
+  92.2797% {
+    content: "Enjoy";
+  }
+  /* string 3, char 8 */
+  92.2807%,
+  92.74754% {
+    content: "Enjo";
+  }
+  /* string 3, char 9 */
+  92.74854%,
+  93.21537% {
+    content: "Enj";
+  }
+  /* string 3, char 10 */
+  93.21637%,
+  93.68321% {
+    content: "En";
+  }
+  /* string 3, char 11 */
+  93.68421%,
+  94.15105% {
+    content: "E";
+  }
+  /* string 3, char 12 */
+  94.15205%,
+  100% {
+    content: "​";
+  }
+}
+
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+
+body .nav .container2 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+  font-size: calc(30px + 2vw);
+  font-family: "Russo One", sans-serif;
+  color: #fff;
+}
+
+body .nav .container2 .title::after {
+  content: "​";
+  position: relative;
+  top: 0px;
+  margin-bottom: -40px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  white-space: nowrap;
+  -webkit-animation: typed 17.1s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 17.1s linear 1s infinite, beam-blink 1s infinite;
+}
+
+@media (max-width: 575px) {
+  body .nav .container2 .title::after {
+    top: -33px;
+  }
+}
+
+body .nav .container2 .txt {
+  margin-top: 23px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 46px;
+}
+
+body .nav .container2 a {
+  padding: 15px 25px 15px 25px;
+  background-color: #a3ff12;
+  color: #090a1a;
+  font-size: 12px;
+}
+
+body .tokenomics .container .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container .first .container {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container .first .container .left p {
+  font-size: 14px;
+}
+
+body .tokenomics .container .first .container .right p {
+  font-size: 14px;
+}
+
+body .tokenomics .container2 {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(../img/BGShapes.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+body .tokenomics .container2 .firstpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container2 .firstpart .left {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .tokenomics .container2 .firstpart .left .logo img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+body .tokenomics .container2 .firstpart .left .txt {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .tokenomics .container2 .firstpart .left .txt .up p {
+  font-size: 25px;
+  margin-bottom: -5px;
+}
+
+body .tokenomics .container2 .firstpart .left .txt .down {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+body .tokenomics .container2 .firstpart .middle {
+  margin: 20px;
+  margin-top: 70px;
+}
+
+body .tokenomics .container2 .firstpart .middle img {
+  width: 70px;
+  margin-right: 65px;
+}
+
+body .tokenomics .container2 .firstpart .right {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .tokenomics .container2 .firstpart .right .up p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+body .tokenomics .container2 .firstpart .right .down {
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .tokenomics .container2 .firstpart .right .down .time {
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .tokenomics .container2 .firstpart .right .down .time .number {
+  font-size: 24px;
+}
+
+body .tokenomics .container2 .firstpart .right .down .time span {
+  margin-top: 34px;
+  margin-left: 1px;
+  color: white;
+  font-size: 14px;
+}
+
+body .tokenomics .container2 .secondpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+body .tokenomics .container2 .secondpart .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container2 .secondpart .up p {
+  font-size: 14px;
+}
+
+body .tokenomics .container2 .secondpart .middle {
+  margin: 0 auto;
+}
+
+body .tokenomics .container2 .secondpart .middle img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body .tokenomics .container2 .secondpart .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+body .tokenomics .container2 .secondpart .down .buton img {
+  width: 120px;
+}
+
+body .tokenomics .container2 .secondpart .down .middle p {
+  font-size: 14px;
+}
+
+body .tokenomics .container2 .secondpart .down .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .tokenomics .container2 .secondpart .down .socials a {
+  margin-right: 20px;
+}
+
+body .tokenomics .container2 .secondpart .down .socials a img {
+  margin-top: 10px;
+  width: 20px;
+}
+
+body .tokenomics .container3 {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  color: white;
+}
+
+body .tokenomics .container3 .squareleft {
+  background-color: #1e1f35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 480px;
+  padding: 20px;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+body .tokenomics .container3 .squareleft .top .titlebig {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+body .tokenomics .container3 .squareleft .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container3 .squareleft .down .left .title {
+  margin: 10px 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+body .tokenomics .container3 .squareleft .down .right {
+  text-align: end;
+}
+
+body .tokenomics .container3 .squareleft .down .right .title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px;
+}
+
+body .tokenomics .container3 .squareright {
+  background-color: #1e1f35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 480px;
+  padding: 20px;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+body .tokenomics .container3 .squareright .top .titlebig {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+body .tokenomics .container3 .squareright .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tokenomics .container3 .squareright .down .left .title {
+  margin: 10px 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+body .tokenomics .container3 .squareright .down .right {
+  text-align: end;
+}
+
+body .tokenomics .container3 .squareright .down .right .title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin: 0px 0px 10px 0px;
+}
+
+body .howtobuy {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+body .howtobuy .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .howtobuy .up .txt p {
+  text-align: start;
+  font-size: 14px;
+  color: #a3ff12;
+}
+
+body .howtobuy .up .imgj {
+  -webkit-animation: fadeInFromNone 1s ease-out infinite alternate;
+          animation: fadeInFromNone 1s ease-out infinite alternate;
+}
+
+body .howtobuy .up .imgj img {
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 100px;
+}
+
+body .howtobuy .mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .howtobuy .mid .left {
+  margin: 0;
+  padding: 0;
+}
+
+body .howtobuy .mid .left p {
+  font-size: 40px;
+}
+
+body .howtobuy .mid .right {
+  margin-top: 60px;
+}
+
+body .howtobuy .mid .right a {
+  border: 2px solid grey;
+  padding: 10px 20px 10px 20px;
+}
+
+body .howtobuy .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .howtobuy .down .left {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .howtobuy .down .left .nr img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+body .howtobuy .down .left .title {
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: -5px;
+}
+
+body .howtobuy .down .left .txt {
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+}
+
+body .howtobuy .down .mid {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .howtobuy .down .mid .nr img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+body .howtobuy .down .mid .title {
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: -5px;
+}
+
+body .howtobuy .down .mid .txt {
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+}
+
+body .howtobuy .down .right {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .howtobuy .down .right .nr img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+body .howtobuy .down .right .title {
+  font-size: 20px;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: -5px;
+}
+
+body .howtobuy .down .right .txt {
+  font-family: "Inter", sans-serif;
+  opacity: 0.7;
+}
+
+body .partners {
+  background-image: url(../img/BGmeet.png);
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+body .partners .container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+body .partners .container .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+body .partners .container .up .ups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .partners .container .up .ups .imgj1 {
+  margin: 12px 5px 0px 5px;
+  display: block;
+  -webkit-animation: fadeInFromNone 0.7s ease-out infinite alternate;
+          animation: fadeInFromNone 0.7s ease-out infinite alternate;
+}
+
+body .partners .container .up .ups .imgj1 img {
+  width: 73.6px;
+  height: 11;
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body .partners .container .up .ups .imgj2 {
+  margin: 16px 5px 0px 5px;
+  -webkit-animation: fadeInFromNone 0.7s ease-out infinite alternate;
+          animation: fadeInFromNone 0.7s ease-out infinite alternate;
+}
+
+body .partners .container .up .ups .imgj2 img {
+  width: 73.6px;
+  height: 11;
+}
+
+body .partners .container .up .ups p {
+  font-size: 14px;
+  color: #a3ff12;
+}
+
+body .partners .container .up .downs {
+  text-align: center;
+}
+
+body .partners .container .down {
+  width: 80%;
+  margin: auto;
+}
+
+body .partners .container .down .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+body .partners .container .down .container .flip-container {
+  margin: 50px;
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  display: inline-block;
+  width: 130px;
+  height: 195px;
+  margin-bottom: 90px;
+}
+
+body .partners .container .down .container .flip-container:hover .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+body .partners .container .down .container .flip-container:hover .front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+body .partners .container .down .container .front {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  z-index: 1;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  z-index: 1;
+  transform: rotateY(-180deg);
+  background-image: url(../img/blurimg.png);
+  background-size: 100% 100%;
+  padding: 20px 40px 20px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px;
+  border: 2px solid white;
+}
+
+body .partners .container .down .container .front .imgj {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .partners .container .down .container .front .imgj img {
+  width: 130px;
+}
+
+body .partners .container .down .container .front .title {
+  font-size: 20px;
+  text-align: center;
+}
+
+body .partners .container .down .container .front .txt1 {
+  margin-top: -10px;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Inter";
+  opacity: 0.7;
+}
+
+body .partners .container .down .container .front .txt2 {
+  margin-top: -10px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Inter";
+  opacity: 0.7;
+  font-weight: 800;
+}
+
+body .partners .container .down .container .front .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .partners .container .down .container .front .socials .logos {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .partners .container .down .container .front .socials .logos img {
+  width: 20px;
+  margin: 5px;
+}
+
+body .partners .container .down .container .back {
+  width: 130px;
+  height: 195px;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  position: absolute;
+  backface-visibility: hidden;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+body .partners .container .down .container .back img {
+  border: 2px solid white;
+}
+/*# sourceMappingURL=style.css.map */
