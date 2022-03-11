@@ -754,7 +754,7 @@ body {
           .up {
             display: flex;
             flex-direction: column;
-            margin-top: 130px;
+            margin-top: 150px;
 
             .ups {
               display: flex;
@@ -803,6 +803,9 @@ body {
         }
         .txt {
           text-align: justify;
+          font-family: "Inter";
+          font-weight: 500px;
+          opacity: 0.7;
           p {
             padding-top: 10px;
           }
@@ -1316,8 +1319,8 @@ body {
   footer {
     background: linear-gradient(
       180deg,
-      #090A1A 5%,
-      #110b20 50%,
+      #080919 33%,
+      #110b20 66%,
       #111123 100%
     );
     .firstpart {
