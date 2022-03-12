@@ -3410,11 +3410,43 @@
                 }
               }
             }
-            .second {
+            .button1 {
+              margin-top: 6px;
+              text-align: center;
               a {
-                img {
-                  width: 120px;
-                  margin: 0px 20px;
+                border: 2px solid grey;
+                padding: 8px 20px 8px 20px;
+                font-size: 14px;
+                &:hover {
+                  animation: swing1 1s ease;
+                  animation-iteration-count: 1;
+                  background: #4a97f5;
+                  border: 2px solid rgb(255, 255, 255);
+                  transition: 1s;
+                  padding: 8px 20px 8px 20px;
+                }
+    
+                @keyframes swing1 {
+                  15% {
+                    padding: 8px 25px 8px 15px;
+                  }
+                  30% {
+                    padding: 8px 20px 8px 25px;
+                    
+                  }
+                  50% {
+                    padding: 8px 23px 8px 22px;
+                  }
+                  65% {
+                    padding: 8px 22px 8px 23px;
+                    
+                  }
+                  80% {
+                    padding: 8px 23px 8px 22px;
+                  }
+                  100% {
+                    padding: 8px 20px 8px 20px;
+                  }
                 }
               }
             }
@@ -3947,9 +3979,10 @@
       }
     }
     .howtobuy {
-      background-image: url(../img/bannerbg5.png);
+      background-image: url(../img/bgbanner12.png);
       background-size: 100% 100%;
       background-repeat: no-repeat;
+      margin: 0;
       padding-bottom: 80px;
       padding-top: 15px;
       .container {
@@ -4115,7 +4148,296 @@
           }
         }
       }
+      .contract {
+      
+        @keyframes slidein {
+          0% {
+            top: -400px;
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+            top: 0px;
+          }
+        }
+  
+        @keyframes slideout {
+          0% {
+            top: 0;
+            opacity: 1;
+          }
+          100% {
+            top: -400px;
+            opacity: 0;
+          }
+        }
+        
+        height: 400px;
+        
+        background: none;
+        #scene {
+          display: flex;
+          align-items: center;
+          width: 1000px;
+          height: 400px;
+          background-image: url(../img/tokensquare.png);
+          background-size: 100% 100%;
+          position: absolute;
+          overflow: hidden;
+          left: 0; 
+          right: 0; 
+          margin-left: auto; 
+          margin-right: auto;
+          margin-top: 50px;
+  
+          #left-zone {
+            color: white;
+            height: 75%;
+            flex-grow: 0;
+            display: flex;
+            width: 370px;
+            align-items: center;
+            justify-content: left;
+            
+            .list {
+              display: flex;
+              list-style: none;
+              align-content: stretch;
+              flex-direction: column;
+              flex-grow: 1;
+              margin: 0;
+              padding: 0;
+              li.item {
+                input[type="radio"] {
+                  display: none;
+                  ~ {
+                    label {
+                      display: block;
+                      opacity: 0.5;
+                      height: 50px;
+                      text-align: center;
+                      line-height: 50px;
+                      font-size: 14px;
+                      &:first-letter {
+                        text-transform: uppercase;
+                        
+                      }
+                      &:hover {
+                        opacity: 0.75;
+                        cursor: pointer;
+                      }
+                    }
+                    label.label_strawberry {
+                      &:before {
+                        content: " ";
+                        display: block;
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        margin-left: 15px;
+                        background-image: url("../img/staking.png");
+                        background-position: center;
+                        background-size: 75% 75%;
+                        background-repeat: no-repeat;
+                      }
+                    }
+                    label.label_banana {
+                      &:before {
+                        content: " ";
+                        display: block;
+                        position: absolute;
+                        width: 50px;
+                        height: 58px;
+                        margin-left: 15px;
+                        background-image: url("../img/buyback.png");
+                        background-position: center;
+                        background-size: 75% 75%;
+                        background-repeat: no-repeat;
+                      }
+                    }
+                    label.label_apple {
+                      &:before {
+                        content: " ";
+                        display: block;
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        margin-left: 15px;
+                        background-image: url("../img/marketing.png");
+                        background-position: center;
+                        background-size: 75% 75%;
+                        background-repeat: no-repeat;
+                      }
+                    }
+                    label.label_orange {
+                      &:before {
+                        content: " ";
+                        display: block;
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        margin-left: 15px;
+                        background-image: url("../img/joystickmetagala.png");
+                        background-position: center;
+                        background-size: 75% 75%;
+                        background-repeat: no-repeat;
+                      }
+                    }
+                    .content {
+                      position: absolute;
+                      left: 250px;
+                      top: -400px;
+                      width: 850px;
+                      height: 400px;
+                      -webkit-animation-duration: 0.75s;
+                      animation-duration: 0.75s;
+                      -webkit-animation-name: slideout;
+                      animation-name: slideout;
+                      -webkit-animation-timing-function: ease-out;
+                      animation-timing-function: ease-out;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      flex-direction: column;
+                      
+                      h2 {
+                        &:first-letter {
+                          text-transform: uppercase;
+                        }
+                      }
+                      p {
+                        max-width: 50%;
+                        text-align: center;
+                        font-family: "Inter";
+                        opacity: 0.7;
+                        font-size: 14px;
+                      }
+                    }
+                    .content.content_strawberry {
+                      .picto {
+                        height: 100px;
+                        width: 100px;
+                        background-image: url("../img/staking.png");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                      }
+                      h4 {
+                        color: #a78efe;
+                        margin-bottom: -5px;
+                      }
+                    }
+                    .content.content_banana {
+                      .picto {
+                        height: 130px;
+                        width: 100px;
+                        background-image: url("../img/buyback.png");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                      }
+                      h4 {
+                        color: #a78efe;
+                        margin-bottom: -5px;
+                      }
+                    }
+                    .content.content_apple {
+                      .picto {
+                        height: 100px;
+                        width: 100px;
+                        background-image: url("../img/marketing.png");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                      }
+                      h4 {
+                        color: #a78efe;
+                        margin-bottom: -5px;
+                      }
+                    }
+                    .content.content_orange {
+                      .picto {
+                        height: 100px;
+                        width: 100px;
+                        background-image: url("../img/joystickmetagala.png");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                      }
+                      h4 {
+                        color: #a78efe;
+                        margin-bottom: -5px;
+                      }
+                    }
+                  }
+                  &:checked {
+                    ~ {
+                      label {
+                        opacity: 1;
+                        -webkit-animation: all 1s
+                          cubic-bezier(0.455, 0.03, 0.515, 0.955);
+                        animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+                      }
+                      label.label_strawberry {
+                        color: #a78efe;
+                        border-right: solid 4px #a78efe;
+                      }
+                      label.label_banana {
+                        color: #a78efe;
+                        border-right: solid 4px #a78efe;
+                      }
+                      label.label_apple {
+                        color: #a78efe;
+                        border-right: solid 4px #a78efe;
+                      }
+                      label.label_orange {
+                        color: #a78efe;
+                        border-right: solid 4px #a78efe;
+                      }
+                      .content {
+                        -webkit-animation-duration: 0.75s;
+                        animation-duration: 0.75s;
+                        -webkit-animation-name: slidein;
+                        animation-name: slidein;
+                        -webkit-animation-fill-mode: forwards;
+                        animation-fill-mode: forwards;
+                        -webkit-animation-timing-function: cubic-bezier(
+                          0.455,
+                          0.03,
+                          0.515,
+                          0.955
+                        );
+                        animation-timing-function: cubic-bezier(
+                          0.455,
+                          0.03,
+                          0.515,
+                          0.955
+                        );
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        #middle-border {
+          height: 100%;
+          flex-grow: 1;
+          max-width: 2px;
+          z-index: 0;
+          
+        }
+        #right-zone {
+          height: 100%;
+          flex-grow: 3;
+          
+          
+        }
+      }
     }
+
+    
     .project {
       background-image: url(../img/bgcoins.png);
       background-size: 100% 100%;
@@ -4401,279 +4723,7 @@
       }
     }
 
-    .contract {
-      @keyframes slidein {
-        0% {
-          top: -400px;
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-          top: 0px;
-        }
-      }
-
-      @keyframes slideout {
-        0% {
-          top: 0;
-          opacity: 1;
-        }
-        100% {
-          top: -400px;
-          opacity: 0;
-        }
-      }
-      background-image: url(../img/bannerbg5.png);
-      background-size: 100%;
-      background-repeat: no-repeat;
-      height: 450px;
-      margin: 0 auto;
-      #scene {
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        width: 1000px;
-        height: 400px;
-        
-        position: absolute;
-        
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-        overflow: hidden;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
-        #left-zone {
-          color: white;
-          height: 75%;
-          flex-grow: 0;
-          display: flex;
-          width: 370px;
-          align-items: center;
-          justify-content: left;
-          .list {
-            display: flex;
-            list-style: none;
-            align-content: stretch;
-            flex-direction: column;
-            flex-grow: 1;
-            margin: 0;
-            padding: 0;
-            li.item {
-              input[type="radio"] {
-                display: none;
-                ~ {
-                  label {
-                    display: block;
-                    opacity: 0.5;
-                    height: 50px;
-                    text-align: center;
-                    line-height: 50px;
-                    &:first-letter {
-                      text-transform: uppercase;
-                    }
-                    &:hover {
-                      opacity: 0.75;
-                      cursor: pointer;
-                    }
-                  }
-                  label.label_strawberry {
-                    &:before {
-                      content: " ";
-                      display: block;
-                      position: absolute;
-                      width: 50px;
-                      height: 50px;
-                      margin-left: 15px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
-                      background-position: center;
-                      background-size: 75% 75%;
-                      background-repeat: no-repeat;
-                    }
-                  }
-                  label.label_banana {
-                    &:before {
-                      content: " ";
-                      display: block;
-                      position: absolute;
-                      width: 50px;
-                      height: 50px;
-                      margin-left: 15px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
-                      background-position: center;
-                      background-size: 75% 75%;
-                      background-repeat: no-repeat;
-                    }
-                  }
-                  label.label_apple {
-                    &:before {
-                      content: " ";
-                      display: block;
-                      position: absolute;
-                      width: 50px;
-                      height: 50px;
-                      margin-left: 15px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
-                      background-position: center;
-                      background-size: 75% 75%;
-                      background-repeat: no-repeat;
-                    }
-                  }
-                  label.label_orange {
-                    &:before {
-                      content: " ";
-                      display: block;
-                      position: absolute;
-                      width: 50px;
-                      height: 50px;
-                      margin-left: 15px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
-                      background-position: center;
-                      background-size: 75% 75%;
-                      background-repeat: no-repeat;
-                    }
-                  }
-                  .content {
-                    position: absolute;
-                    left: 250px;
-                    top: -400px;
-                    width: 850px;
-                    height: 400px;
-                    -webkit-animation-duration: 0.75s;
-                    animation-duration: 0.75s;
-                    -webkit-animation-name: slideout;
-                    animation-name: slideout;
-                    -webkit-animation-timing-function: ease-out;
-                    animation-timing-function: ease-out;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    h1 {
-                      &:first-letter {
-                        text-transform: uppercase;
-                      }
-                    }
-                    p {
-                      max-width: 50%;
-                      text-align: center;
-                    }
-                  }
-                  .content.content_strawberry {
-                    .picto {
-                      height: 100px;
-                      width: 100px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png");
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
-                    }
-                    h1 {
-                      color: #d64541;
-                    }
-                  }
-                  .content.content_banana {
-                    .picto {
-                      height: 100px;
-                      width: 100px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png");
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
-                    }
-                    h1 {
-                      color: #f5d76e;
-                    }
-                  }
-                  .content.content_apple {
-                    .picto {
-                      height: 100px;
-                      width: 100px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png");
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
-                    }
-                    h1 {
-                      color: #00b16a;
-                    }
-                  }
-                  .content.content_orange {
-                    .picto {
-                      height: 100px;
-                      width: 100px;
-                      background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png");
-                      background-position: center;
-                      background-size: cover;
-                      background-repeat: no-repeat;
-                    }
-                    h1 {
-                      color: #f27935;
-                    }
-                  }
-                }
-                &:checked {
-                  ~ {
-                    label {
-                      opacity: 1;
-                      -webkit-animation: all 1s
-                        cubic-bezier(0.455, 0.03, 0.515, 0.955);
-                      animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-                    }
-                    label.label_strawberry {
-                      color: #d64541;
-                      border-right: solid 4px #d64541;
-                    }
-                    label.label_banana {
-                      color: #f5d76e;
-                      border-right: solid 4px #f5d76e;
-                    }
-                    label.label_apple {
-                      color: #00b16a;
-                      border-right: solid 4px #00b16a;
-                    }
-                    label.label_orange {
-                      color: #f27935;
-                      border-right: solid 4px #f27935;
-                    }
-                    .content {
-                      -webkit-animation-duration: 0.75s;
-                      animation-duration: 0.75s;
-                      -webkit-animation-name: slidein;
-                      animation-name: slidein;
-                      -webkit-animation-fill-mode: forwards;
-                      animation-fill-mode: forwards;
-                      -webkit-animation-timing-function: cubic-bezier(
-                        0.455,
-                        0.03,
-                        0.515,
-                        0.955
-                      );
-                      animation-timing-function: cubic-bezier(
-                        0.455,
-                        0.03,
-                        0.515,
-                        0.955
-                      );
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-      #middle-border {
-        height: 75%;
-        flex-grow: 1;
-        max-width: 2px;
-        z-index: 0;
-      }
-      #right-zone {
-        height: 100%;
-        flex-grow: 3;
-      }
-    }
+    
 
     .hrline{
       margin: 0;
