@@ -574,7 +574,7 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 0px;
             .top {
               .titlebig {
                 font-size: 24px;
@@ -613,6 +613,11 @@
                   display: none;
                 }
               }
+            }
+          }
+          .imgja{
+            img{
+              width: 160px;
             }
           }
         }
@@ -2182,7 +2187,7 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 0px;
             .top {
               .titlebig {
                 font-size: 24px;
@@ -2221,6 +2226,11 @@
                   display: none;
                 }
               }
+            }
+          }
+          .imgja{
+            img{
+              width: 160px;
             }
           }
         }
@@ -3590,6 +3600,31 @@
             background-color: #9a83ff;
             color: #fff;
             font-size: 12px;
+            &:hover {
+              animation: swing 1s ease;
+              animation-iteration-count: 1;
+            }
+          }
+          @keyframes swing {
+            15% {
+              padding: 15px 30px 15px 20px;
+            }
+            30% {
+              padding: 15px 25px 15px 30px;
+            }
+            50% {
+              padding: 15px 27px 15px 22px;
+            }
+            65% {
+              transform: translateX(-3px);
+              padding: 15px 22px 15px 27px;
+            }
+            80% {
+              padding: 15px 27px 15px 23px;
+            }
+            100% {
+              padding: 15px 25px 15px 25px;
+            }
           }
         }
       }
@@ -3689,15 +3724,13 @@
               }
             }
             .middle {
-              margin: 20px;
-              margin-top: 70px;
+              
+              margin-top: 20px;
               img {
-                width: 70px;
-                margin-right: 65px;
+                width: 110px;
               }
             }
             .right {
-              margin: 20px;
               display: flex;
               flex-direction: column;
               padding: 20px;
@@ -3714,7 +3747,7 @@
                 flex-direction: row;
                 text-align: start;
                 .time {
-                  margin-right: 30px;
+                  margin-right: 20px;
                   display: flex;
                   flex-direction: row;
                   .number {
@@ -3909,6 +3942,11 @@
               }
             }
           }
+          .imgja{
+            img{
+              width: 160px;
+            }
+          }
         }
       }
 
@@ -4043,12 +4081,38 @@
             text-align: center;
             a {
               border: 2px solid grey;
-              padding: 10px 20px 10px 20px;
+              padding: 15px 25px 15px 25px;
+              font-size: 14px;
               &:hover {
+                animation: swing 1s ease;
+                animation-iteration-count: 1;
                 background: #4a97f5;
                 border: 2px solid rgb(255, 255, 255);
                 transition: 1s;
+                padding: 15px 25px 15px 25px;
               }
+            
+            @keyframes swing {
+              15% {
+                padding: 15px 30px 15px 20px;
+              }
+              30% {
+                padding: 15px 25px 15px 30px;
+              }
+              50% {
+                padding: 15px 27px 15px 22px;
+              }
+              65% {
+                transform: translateX(-3px);
+                padding: 15px 22px 15px 27px;
+              }
+              80% {
+                padding: 15px 27px 15px 23px;
+              }
+              100% {
+                padding: 15px 25px 15px 25px;
+              }
+            }
             }
           }
         }
@@ -4140,6 +4204,32 @@
               background-color: #9a83ff;
               color: #fff;
               font-size: 12px;
+              
+              &:hover {
+                animation: swing 1s ease;
+                animation-iteration-count: 1;
+              }
+            }
+            @keyframes swing {
+              15% {
+                padding: 15px 30px 15px 20px;
+              }
+              30% {
+                padding: 15px 25px 15px 30px;
+              }
+              50% {
+                padding: 15px 27px 15px 22px;
+              }
+              65% {
+                transform: translateX(-3px);
+                padding: 15px 22px 15px 27px;
+              }
+              80% {
+                padding: 15px 27px 15px 23px;
+              }
+              100% {
+                padding: 15px 25px 15px 25px;
+              }
             }
           }
         }
@@ -4312,6 +4402,7 @@
         }
       }
     }
+
     .contract {
       background-image: linear-gradient(180deg, #111124 13.85%, #110b20 89.9%);
       padding: 40px 0px;
@@ -4659,13 +4750,13 @@
           background-repeat: no-repeat;
 
           animation-name: reverseq;
-            animation-duration: 1s;
-            &:hover {
-              animation-name: myanimationq;
-              animation-duration: 0.5s;
-              animation-fill-mode: forwards;
-            }
-          
+          animation-duration: 1s;
+          &:hover {
+            animation-name: myanimationq;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+          }
+
           @keyframes myanimationq {
             from {
               background-image: url(../img/BGShapes.png);
@@ -4711,6 +4802,32 @@
               background-color: #9a83ff;
               color: #fff;
               font-size: 12px;
+              
+              &:hover {
+                animation: swing 1s ease;
+                animation-iteration-count: 1;
+              }
+            }
+            @keyframes swing {
+              15% {
+                padding: 15px 30px 15px 20px;
+              }
+              30% {
+                padding: 15px 25px 15px 30px;
+              }
+              50% {
+                padding: 15px 27px 15px 22px;
+              }
+              65% {
+                transform: translateX(-3px);
+                padding: 15px 22px 15px 27px;
+              }
+              80% {
+                padding: 15px 27px 15px 23px;
+              }
+              100% {
+                padding: 15px 25px 15px 25px;
+              }
             }
           }
         }
