@@ -4126,6 +4126,7 @@
         display: flex;
         flex-direction: row;
         margin-top: -1px;
+        margin-bottom: -1px;
         .left {
           flex: 1;
         }
@@ -4681,6 +4682,15 @@
       border: 0;
       background: #0b040f;
       box-shadow: inset 0 9px 9px -3px rgba(92, 11, 184, 0.521);
+      
+    }
+    .hrline1{
+      margin: 0;
+      padding: 0;
+      height: 10px;
+      border: 0;
+      background: #0b040f;
+      box-shadow: inset 0 9px 9px -3px rgb(68, 39, 102);
       
     }
     .animecar {
