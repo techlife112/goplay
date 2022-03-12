@@ -4658,15 +4658,15 @@
           background-size: 100% 100%;
           background-repeat: no-repeat;
 
-          animation-name: reverse;
+          animation-name: reverseq;
             animation-duration: 1s;
             &:hover {
-              animation-name: myanimation;
+              animation-name: myanimationq;
               animation-duration: 0.5s;
               animation-fill-mode: forwards;
             }
           
-          @keyframes myanimation {
+          @keyframes myanimationq {
             from {
               background-image: url(../img/BGShapes.png);
               background-size: 100% 100%;
@@ -4678,7 +4678,7 @@
               background-repeat: no-repeat;
             }
           }
-          @keyframes reverse {
+          @keyframes reverseq {
             from {
               background-image: url(../img/tokensquare.png);
               background-size: 100% 100%;
