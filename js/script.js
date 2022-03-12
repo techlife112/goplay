@@ -1,11 +1,18 @@
 
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  var x = document.getElementById("myTopnavs");
+  if (x.className === "topnavs") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "topnavs";
   }
+}
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
 }
 
 var countDownDate = new Date("April 5, 2022 15:37:25 UTC").getTime();
