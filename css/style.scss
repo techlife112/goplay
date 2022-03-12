@@ -614,155 +614,154 @@
               }
             }
           }
-          .imgja{
-            img{
+          .imgja {
+            img {
               width: 160px;
             }
           }
         }
       }
+    }
+    .howtobuy {
+      padding-bottom: 80px;
+      padding-top: 80px;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
 
-      .howtobuy {
-        padding-bottom: 80px;
-        padding-top: 80px;
-        .container {
-          width: 80%;
-          margin: 0 auto;
-          margin-top: 50px;
-
-          .up {
-            display: flex;
-            flex-direction: row;
-            .txt {
-              p {
-                text-align: start;
-                font-size: 14px;
-                color: #2baeff;
-              }
-            }
-            .imgj {
-              animation: fadeInFromNone 1s ease-out infinite alternate;
-
-              img {
-                margin-top: 13px;
-                margin-left: 5px;
-
-                width: 100px;
-              }
+        .up {
+          display: flex;
+          flex-direction: row;
+          .txt {
+            p {
+              text-align: start;
+              font-size: 14px;
+              color: #2baeff;
             }
           }
-          .mid {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: -30px;
-            .left {
-              margin: 0;
-              padding: 0;
-              p {
-                font-size: 30px;
-              }
+          .imgj {
+            animation: fadeInFromNone 1s ease-out infinite alternate;
+
+            img {
+              margin-top: 13px;
+              margin-left: 5px;
+
+              width: 100px;
             }
           }
+        }
+        .mid {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: -30px;
+          .left {
+            margin: 0;
+            padding: 0;
+            p {
+              font-size: 30px;
+            }
+          }
+        }
 
-          .down {
+        .down {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .container {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            .container {
+            .left {
+              margin: 0px;
               display: flex;
-              flex-direction: column;
-              .left {
-                margin: 0px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 40px;
-                    margin-right: 10px;
-                    margin-left: 00px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: 0px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 300px;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 40px;
+                  margin-right: 10px;
+                  margin-left: 00px;
                 }
               }
-              .mid {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                margin-top: 100px;
-                margin-bottom: 100px;
-                justify-content: start;
-                text-align: start;
-                .nr {
-                  img {
-                    width: 40px;
-                    margin-right: 10px;
-                    margin-left: 00px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: 0px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 300px;
-                }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: 0px;
               }
-              .right {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 40px;
-                    margin-right: 10px;
-                    margin-left: 00px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: 0px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 300px;
-                }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 300px;
               }
             }
-            .iframee {
-              border: 0px;
-              width: 80%;
+            .mid {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              margin-top: 100px;
+              margin-bottom: 100px;
+              justify-content: start;
+              text-align: start;
+              .nr {
+                img {
+                  width: 40px;
+                  margin-right: 10px;
+                  margin-left: 00px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: 0px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 300px;
+              }
+            }
+            .right {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 40px;
+                  margin-right: 10px;
+                  margin-left: 00px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: 0px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 300px;
+              }
             }
           }
+          .iframee {
+            border: 0px;
+            width: 80%;
+          }
+        }
 
-          .button {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            text-align: center;
-            a {
-              border: 2px solid grey;
-              padding: 10px 20px 10px 20px;
-              &:hover {
-                background: #4a97f5;
-                border: 2px solid rgb(255, 255, 255);
-                transition: 1s;
-              }
+        .button {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          text-align: center;
+          a {
+            border: 2px solid grey;
+            padding: 10px 20px 10px 20px;
+            &:hover {
+              background: #4a97f5;
+              border: 2px solid rgb(255, 255, 255);
+              transition: 1s;
             }
           }
         }
@@ -2227,158 +2226,158 @@
               }
             }
           }
-          .imgja{
-            img{
+          .imgja {
+            img {
               width: 160px;
             }
           }
         }
       }
 
-      .howtobuy {
-        padding-bottom: 80px;
-        padding-top: 80px;
-        .container {
-          width: 80%;
-          margin: 0 auto;
-          margin-top: 50px;
+      
+    }
+    .howtobuy {
+      padding-bottom: 80px;
+      padding-top: 80px;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
 
-          .up {
-            display: flex;
-            flex-direction: row;
-            .txt {
-              p {
-                text-align: start;
-                font-size: 14px;
-                color: #2baeff;
-              }
-            }
-            .imgj {
-              animation: fadeInFromNone 1s ease-out infinite alternate;
-
-              img {
-                margin-top: 13px;
-                margin-left: 5px;
-
-                width: 100px;
-              }
+        .up {
+          display: flex;
+          flex-direction: row;
+          .txt {
+            p {
+              text-align: start;
+              font-size: 14px;
+              color: #2baeff;
             }
           }
-          .mid {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: -30px;
-            .left {
-              margin: 0;
-              padding: 0;
-              p {
-                font-size: 30px;
-              }
+          .imgj {
+            animation: fadeInFromNone 1s ease-out infinite alternate;
+
+            img {
+              margin-top: 13px;
+              margin-left: 5px;
+
+              width: 100px;
             }
           }
+        }
+        .mid {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: -30px;
+          .left {
+            margin: 0;
+            padding: 0;
+            p {
+              font-size: 30px;
+            }
+          }
+        }
 
-          .down {
+        .down {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .container {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            .container {
+            .left {
+              margin: 10px;
               display: flex;
-              flex-direction: column;
-              .left {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 50px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 50px;
+                  margin-right: 10px;
                 }
               }
-              .mid {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                margin-top: 100px;
-                margin-bottom: 100px;
-                justify-content: start;
-                text-align: start;
-                .nr {
-                  img {
-                    width: 70px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
-                }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
               }
-              .right {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 70px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
-                }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
               }
             }
-            .iframee {
-              border: 0px;
-              width: 80%;
+            .mid {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              margin-top: 100px;
+              margin-bottom: 100px;
+              justify-content: start;
+              text-align: start;
+              .nr {
+                img {
+                  width: 70px;
+                  margin-right: 10px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
+              }
+            }
+            .right {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 70px;
+                  margin-right: 10px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
+              }
             }
           }
+          .iframee {
+            border: 0px;
+            width: 80%;
+          }
+        }
 
-          .button {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            text-align: center;
-            a {
-              border: 2px solid grey;
-              padding: 10px 20px 10px 20px;
-              &:hover {
-                background: #4a97f5;
-                border: 2px solid rgb(255, 255, 255);
-                transition: 1s;
-              }
+        .button {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          text-align: center;
+          a {
+            border: 2px solid grey;
+            padding: 10px 20px 10px 20px;
+            &:hover {
+              background: #4a97f5;
+              border: 2px solid rgb(255, 255, 255);
+              transition: 1s;
             }
           }
         }
       }
     }
-
     .project {
       background-image: url(../img/bgcoinsresponsive.png);
       background-size: 100% 100%;
@@ -3629,6 +3628,7 @@
       }
 
       .tokenomics {
+        padding-bottom: 70px;
         .container {
           .first {
             display: flex;
@@ -3659,6 +3659,7 @@
           background-image: url(../img/BGShapes.png);
           background-size: 100% 100%;
           background-repeat: no-repeat;
+          
 
           animation-name: changebgtokens;
           animation-duration: 0.5s;
@@ -3723,7 +3724,6 @@
               }
             }
             .middle {
-              
               margin-top: 20px;
               img {
                 width: 110px;
@@ -3941,156 +3941,161 @@
               }
             }
           }
-          .imgja{
-            img{
+          .imgja {
+            img {
               width: 160px;
             }
           }
         }
       }
 
-      .howtobuy {
-        padding-bottom: 80px;
-        padding-top: 80px;
-        .container {
-          width: 80%;
-          margin: 0 auto;
-          margin-top: 50px;
+      
+    }
+    .howtobuy {
+      background-image: url(../img/bannerbg5.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-bottom: 80px;
+      padding-top: 15px;
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
 
-          .up {
-            display: flex;
-            flex-direction: row;
-            .txt {
-              p {
-                text-align: start;
-                font-size: 14px;
-                color: #2baeff;
-              }
-            }
-            .imgj {
-              animation: fadeInFromNone 1s ease-out infinite alternate;
-
-              img {
-                margin-top: 13px;
-                margin-left: 5px;
-
-                width: 100px;
-              }
-            }
-          }
-          .mid {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: -30px;
-            .left {
-              margin: 0;
-              padding: 0;
-              p {
-                font-size: 30px;
-              }
-            }
-          }
-
-          .down {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-
-            .container {
-              display: flex;
-              flex-direction: column;
-              .left {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 50px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
-                }
-              }
-              .mid {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                margin-top: 100px;
-                margin-bottom: 100px;
-                justify-content: start;
-                text-align: start;
-                .nr {
-                  img {
-                    width: 70px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
-                }
-              }
-              .right {
-                margin: 10px;
-                display: flex;
-                flex-direction: row;
-                .nr {
-                  img {
-                    width: 70px;
-                    margin-right: 10px;
-                  }
-                }
-                .title {
-                  font-size: 20px;
-                  font-family: "Russo One", sans-serif;
-                  margin-bottom: -5px;
-                }
-                .txt {
-                  font-family: "Inter", sans-serif;
-                  opacity: 0.7;
-                  width: 400px;
-                }
-              }
-            }
-            .iframee {
-              margin-left: 40px;
-              border: 0px;
-              width: 80%;
-            }
-          }
-
-          .button {
-            margin-top: 40px;
-            text-align: center;
-            a {
-              border: 2px solid grey;
-              padding: 15px 25px 15px 25px;
+        .up {
+          display: flex;
+          flex-direction: row;
+          .txt {
+            p {
+              text-align: start;
               font-size: 14px;
-              &:hover {
-                animation: swing 1s ease;
-                animation-iteration-count: 1;
-                background: #4a97f5;
-                border: 2px solid rgb(255, 255, 255);
-                transition: 1s;
-                padding: 15px 25px 15px 25px;
+              color: #2baeff;
+            }
+          }
+          .imgj {
+            animation: fadeInFromNone 1s ease-out infinite alternate;
+
+            img {
+              margin-top: 13px;
+              margin-left: 5px;
+
+              width: 100px;
+            }
+          }
+        }
+        .mid {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: -30px;
+          .left {
+            margin: 0;
+            padding: 0;
+            p {
+              font-size: 30px;
+            }
+          }
+        }
+
+        .down {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+
+          .container {
+            display: flex;
+            flex-direction: column;
+            .left {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 50px;
+                  margin-right: 10px;
+                }
               }
-            
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
+              }
+            }
+            .mid {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              margin-top: 100px;
+              margin-bottom: 100px;
+              justify-content: start;
+              text-align: start;
+              .nr {
+                img {
+                  width: 70px;
+                  margin-right: 10px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
+              }
+            }
+            .right {
+              margin: 10px;
+              display: flex;
+              flex-direction: row;
+              .nr {
+                img {
+                  width: 70px;
+                  margin-right: 10px;
+                }
+              }
+              .title {
+                font-size: 20px;
+                font-family: "Russo One", sans-serif;
+                margin-bottom: -5px;
+              }
+              .txt {
+                font-family: "Inter", sans-serif;
+                opacity: 0.7;
+                width: 400px;
+              }
+            }
+          }
+          .iframee {
+            margin-left: 40px;
+            border: 0px;
+            width: 80%;
+          }
+        }
+
+        .button {
+          margin-top: 40px;
+          text-align: center;
+          a {
+            border: 2px solid grey;
+            padding: 15px 25px 15px 25px;
+            font-size: 14px;
+            &:hover {
+              animation: swing 1s ease;
+              animation-iteration-count: 1;
+              background: #4a97f5;
+              border: 2px solid rgb(255, 255, 255);
+              transition: 1s;
+              padding: 15px 25px 15px 25px;
+            }
+
             @keyframes swing {
               15% {
                 padding: 15px 30px 15px 20px;
@@ -4112,12 +4117,10 @@
                 padding: 15px 25px 15px 25px;
               }
             }
-            }
           }
         }
       }
     }
-
     .project {
       background-image: url(../img/bgcoins.png);
       background-size: 100% 100%;
@@ -4203,7 +4206,7 @@
               background-color: #9a83ff;
               color: #fff;
               font-size: 12px;
-              
+
               &:hover {
                 animation: swing 1s ease;
                 animation-iteration-count: 1;
@@ -4801,7 +4804,7 @@
               background-color: #9a83ff;
               color: #fff;
               font-size: 12px;
-              
+
               &:hover {
                 animation: swing 1s ease;
                 animation-iteration-count: 1;
