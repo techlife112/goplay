@@ -154,6 +154,7 @@
 
     .onebg {
       background-image: url(../img/bannerbg.png);
+      background-size: 100% 100%;
       background-repeat: repeat;
       .nav {
         padding-bottom: 80px;
@@ -574,6 +575,7 @@
             display: flex;
             flex-direction: column;
             margin-top: 0px;
+            margin-bottom: 40px;
             .top {
               .titlebig {
                 font-size: 24px;
@@ -623,8 +625,13 @@
       }
     }
     .howtobuy {
+      background-image: url(../img/bgbanner12mobile.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin: 0;
       padding-bottom: 80px;
-      padding-top: 80px;
+      padding-top: 15px;
+      
       .container {
         width: 80%;
         margin: 0 auto;
@@ -766,6 +773,45 @@
           }
         }
       }
+      .contract{
+        display: none;
+      }
+      .contractmobile {
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 80px;
+        .contrainer {
+          .box {
+            text-align: center;
+            margin-top: 40px;
+            background-image: url(../img/tokensquare.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .img {
+              padding-top: 20px;
+              padding-bottom: 20px;
+              img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+              }
+            }
+            .text {
+              width: 90%;
+              margin: 0 auto;
+              .title {
+                font-size: 20px;
+              }
+              .txt {
+                font-size: 14px;
+                font-family: "Inter";
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
     }
 
     .project {
@@ -780,7 +826,7 @@
         margin-top: -1px;
 
         .right {
-          margin-top: 350px;
+          margin-top: 380px;
           .title {
             .up {
               display: flex;
@@ -1527,6 +1573,109 @@
           }
         }
       }
+      .platforms {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        .up {
+          display: flex;
+          flex-direction: column;
+          margin-top: 50px;
+
+          .ups {
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            .imgj1 {
+              margin: 12px 5px 0px 5px;
+              display: block;
+              animation: fadeInFromNone 0.7s ease-out infinite alternate;
+              img {
+                width: 73.6px;
+                height: 11;
+              }
+            }
+
+            @keyframes fadeInFromNone {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+            }
+            .imgj2 {
+              margin: 16px 5px 0px 5px;
+              animation: fadeInFromNone 0.7s ease-out infinite alternate;
+
+              img {
+                width: 73.6px;
+                height: 11;
+              }
+            }
+
+            p {
+              font-size: 14px;
+              color: #2baeff;
+            }
+          }
+          .downs {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin: 0 auto;
+            justify-content: center;
+
+            .socials {
+              a {
+                .pcs {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .poocoin {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .cmc {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .cg {
+                  width: 130px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .bgf {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
       .secondpart {
         text-align: center;
         align-items: center;
@@ -1605,6 +1754,22 @@
           }
         }
       }
+    }
+    .hrline {
+      margin: 0;
+      padding: 0;
+      height: 10px;
+      border: 0;
+      background: #0b040f;
+      box-shadow: inset 0 9px 9px -3px rgba(92, 11, 184, 0.521);
+    }
+    .hrline1 {
+      margin: 0;
+      padding: 0;
+      height: 10px;
+      border: 0;
+      background: #0b040f;
+      box-shadow: inset 0 9px 9px -3px rgb(68, 39, 102);
     }
   }
 }
@@ -2139,6 +2304,7 @@
           align-items: center;
           margin-top: 20px;
           color: white;
+
           .squareleft {
             background-image: url(../img/tokensquare.png);
             background-size: 100% 100%;
@@ -2186,6 +2352,7 @@
             display: flex;
             flex-direction: column;
             margin-top: 0px;
+            margin-bottom: 50px;
             .top {
               .titlebig {
                 font-size: 24px;
@@ -2235,8 +2402,12 @@
       }
     }
     .howtobuy {
+      background-image: url(../img/bgbanner12mobile.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin: 0;
       padding-bottom: 80px;
-      padding-top: 80px;
+      padding-top: 15px;
       .container {
         width: 80%;
         margin: 0 auto;
@@ -2375,10 +2546,49 @@
           }
         }
       }
+      .contract {
+        display: none;
+      }
+      .contractmobile {
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 80px;
+        .contrainer {
+          .box {
+            text-align: center;
+            margin-top: 40px;
+            background-image: url(../img/tokensquare.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .img {
+              padding-top: 20px;
+              padding-bottom: 20px;
+              img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+              }
+            }
+            .text {
+              width: 90%;
+              margin: 0 auto;
+              .title {
+                font-size: 20px;
+              }
+              .txt {
+                font-size: 14px;
+                font-family: "Inter";
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
     }
     .project {
       background-image: url(../img/bgcoinsresponsive.png);
-      background-size: 100% 100%;
+      background-size: 100%;
       background-repeat: no-repeat;
       .container {
         width: 80%;
@@ -2388,7 +2598,7 @@
         margin-top: -1px;
 
         .right {
-          margin-top: 350px;
+          margin-top: 500px;
           .title {
             .up {
               display: flex;
@@ -3134,6 +3344,109 @@
           }
         }
       }
+      .platforms {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        .up {
+          display: flex;
+          flex-direction: column;
+          margin-top: 50px;
+
+          .ups {
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            .imgj1 {
+              margin: 12px 5px 0px 5px;
+              display: block;
+              animation: fadeInFromNone 0.7s ease-out infinite alternate;
+              img {
+                width: 73.6px;
+                height: 11;
+              }
+            }
+
+            @keyframes fadeInFromNone {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+            }
+            .imgj2 {
+              margin: 16px 5px 0px 5px;
+              animation: fadeInFromNone 0.7s ease-out infinite alternate;
+
+              img {
+                width: 73.6px;
+                height: 11;
+              }
+            }
+
+            p {
+              font-size: 14px;
+              color: #2baeff;
+            }
+          }
+          .downs {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin: 0 auto;
+            justify-content: center;
+
+            .socials {
+              a {
+                .pcs {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .poocoin {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .cmc {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .cg {
+                  width: 130px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+                .bgf {
+                  width: 150px;
+                  margin: 20px 20px 40px 20px;
+                  opacity: 0.3;
+                  &:hover {
+                    opacity: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
       .secondpart {
         text-align: center;
         align-items: center;
@@ -3212,6 +3525,22 @@
           }
         }
       }
+    }
+    .hrline {
+      margin: 0;
+      padding: 0;
+      height: 10px;
+      border: 0;
+      background: #0b040f;
+      box-shadow: inset 0 9px 9px -3px rgba(92, 11, 184, 0.521);
+    }
+    .hrline1 {
+      margin: 0;
+      padding: 0;
+      height: 10px;
+      border: 0;
+      background: #0b040f;
+      box-shadow: inset 0 9px 9px -3px rgb(68, 39, 102);
     }
   }
 }
@@ -4168,7 +4497,7 @@
             opacity: 0;
           }
         }
-
+        display: block;
         height: 400px;
 
         background: none;
@@ -4427,6 +4756,43 @@
         #right-zone {
           height: 100%;
           flex-grow: 3;
+        }
+      }
+      .contractmobile {
+        display: none;
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 80px;
+        .contrainer {
+          .box {
+            text-align: center;
+            margin-top: 40px;
+            background-image: url(../img/tokensquare.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .img {
+              padding-top: 20px;
+              padding-bottom: 20px;
+              img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100px;
+              }
+            }
+            .text {
+              width: 90%;
+              margin: 0 auto;
+              .title {
+                font-size: 20px;
+              }
+              .txt {
+                font-size: 14px;
+                font-family: "Inter";
+                padding-bottom: 20px;
+              }
+            }
+          }
         }
       }
     }
@@ -5076,48 +5442,46 @@
             width: 80%;
             margin: 0 auto;
             justify-content: center;
-            
+
             .socials {
-              
-              a{
-                .pcs{
+              a {
+                .pcs {
                   width: 150px;
                   margin: 20px 20px 40px 20px;
                   opacity: 0.3;
-                  &:hover{
+                  &:hover {
                     opacity: 1;
                   }
-                  
                 }
-                .poocoin{
+                .poocoin {
                   width: 150px;
                   margin: 20px 20px 40px 20px;
                   opacity: 0.3;
-                  &:hover{
+                  &:hover {
                     opacity: 1;
                   }
                 }
-                .cmc{
+                .cmc {
                   width: 150px;
                   margin: 20px 20px 40px 20px;
                   opacity: 0.3;
-                  &:hover{
+                  &:hover {
                     opacity: 1;
                   }
                 }
-                .cg{
+                .cg {
                   width: 130px;
                   margin: 20px 20px 40px 20px;
                   opacity: 0.3;
-                  &:hover{
+                  &:hover {
                     opacity: 1;
                   }
                 }
-                .bgf{
+                .bgf {
                   width: 150px;
                   margin: 20px 20px 40px 20px;
                   opacity: 0.3;
-                  &:hover{
+                  &:hover {
                     opacity: 1;
                   }
                 }
