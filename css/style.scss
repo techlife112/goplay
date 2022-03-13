@@ -3,6 +3,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     a {
       text-decoration: none;
       color: white;
@@ -688,8 +693,8 @@
               .nr {
                 img {
                   width: 40px;
-                  margin-right: 10px;
-                  margin-left: 00px;
+                  margin-right: 5px;
+                  margin-left: 0px;
                 }
               }
               .title {
@@ -700,7 +705,7 @@
               .txt {
                 font-family: "Inter", sans-serif;
                 opacity: 0.7;
-                width: 300px;
+                width: 100%;
               }
             }
             .mid {
@@ -714,7 +719,7 @@
               .nr {
                 img {
                   width: 40px;
-                  margin-right: 10px;
+                  margin-right: 5px;
                   margin-left: 00px;
                 }
               }
@@ -726,7 +731,7 @@
               .txt {
                 font-family: "Inter", sans-serif;
                 opacity: 0.7;
-                width: 300px;
+                width: 100%;
               }
             }
             .right {
@@ -736,7 +741,7 @@
               .nr {
                 img {
                   width: 40px;
-                  margin-right: 10px;
+                  margin-right: 5px;
                   margin-left: 00px;
                 }
               }
@@ -748,7 +753,7 @@
               .txt {
                 font-family: "Inter", sans-serif;
                 opacity: 0.7;
-                width: 300px;
+                width: 100%;
               }
             }
           }
@@ -1779,6 +1784,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     a {
       text-decoration: none;
       color: white;
@@ -3550,6 +3560,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     a {
       text-decoration: none;
       color: white;
